@@ -71,7 +71,7 @@ A demonstration of the application can be accessible by running the Streamlit ap
 3. The application should now be running locally on your browser, ready for input.
 
 The video below shows a basic movie recommendation bot in action.
-
+[![](streamlit-seeklogo.svg)](https://youtu.be/6Z6ZcoBW-C0)
 
 # 5. Future Enhancements
 While the current version of the application offers a basic functionality to interact with the OpenAI Assistants API, several enhancements are planned for the future to improve user experience and broaden application use cases:

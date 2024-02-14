@@ -38,6 +38,7 @@ class OpenAIAssistant:
             time.sleep(0.5)
         return run
 
+
 def initialize_assistant():
     load_dotenv()
     api_key = os.environ.get("OPENAI_API_KEY")
@@ -50,6 +51,7 @@ def initialize_assistant():
 
     return assistant
 
+
 def main():
     
     assistant = initialize_assistant()
@@ -58,7 +60,7 @@ def main():
     user_input = "Hello, assistant!"
     run = assistant.submit_message(thread, user_input)
     run = assistant.wait_for_run_completion(run, thread)
-    response = assistant.get_latest_message(thread)
+    response = assistant.get_response(thread)
     print(response)
 
 
